@@ -1,0 +1,78 @@
+/* SideNav.css */
+
+.sidenav {
+  height: 100vh;
+  width: 20%;
+  background-color: hsl(183, 100%, 11%);
+  overflow-x: hidden;
+  border-radius: 15px;
+  margin: 10px;
+  position: sticky;
+  top: 0%;
+}
+
+.logoHeader {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #166064;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logoHeader img {
+  max-width: 50%;
+  height: auto;
+  margin: 10%;
+}
+
+.sidenav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #497679;
+  display: block;
+  position: relative;
+}
+
+.sidenav a:hover {
+  color: #98b8b5;
+}
+
+.sidenav .active {
+  color: #98b8b5;
+}
+
+.sidenav .active::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 8px;
+  background-color: #00dc44;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.navs {
+  height: 50%;
+  border-bottom: #166064 2px solid;
+}
+
+.logoutContainer {
+  padding: 0;
+  font-size: 15px;
+}
+
+.logoutContainer .logoutIcon {
+  margin-right: 7px !important;
+}
+
+.greatifyBotLogo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 200px;
+}

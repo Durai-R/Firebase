@@ -1,0 +1,140 @@
+/* Dashboard.css */
+
+.dashboard {
+  padding: 0 0px 20px 0px;
+}
+
+.graph {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.piechart {
+  background-color: #d4f8df;
+  height: auto;
+  overflow: auto;
+  border-radius: 8px;
+}
+
+
+.dashFirstSec {
+  height: 50%;
+  background-color: #ededed;
+
+
+}
+
+.dashSecsec {
+  height: 50%;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.chartSection {
+  /* margin-top: 1% !important; */
+  height: 50%;
+  /* padding-left: 30px; */
+  /* border: 2px solid rgb(140, 138, 138); */
+  margin-left: 30px !important;
+  border-radius: 10px;
+}
+
+.proccebarSec {
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+.prossText {
+  font-size: small
+}
+
+.card1 {
+  height: 40% !important;
+  background-color: blue;
+  border-radius: 10px;
+  background-image: url("../../assets/images/card1bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.card2 {
+  background-color: green;
+  height: 60% !important;
+  border-radius: 10px;
+  background-image: url("../../assets/images/card2bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3 {
+  height: 40% !important;
+  background-color: blue;
+  border-radius: 10px;
+  background-image: url("../../assets/images/thirdcardImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.card4 {
+  background-color: green;
+  height: 60% !important;
+  border-radius: 10px;
+  background-color: #f9f7e8;
+}
+
+.para {
+  color: white;
+}
+
+.lbl {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.crd {
+  margin-left: 1% !important;
+}
+
+.desc {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.descHead {
+  color: white;
+}
+
+.descText1 {
+  color: white;
+  opacity: 80%;
+}
+
+.descText {
+  color: white;
+  opacity: 40%;
+}
+
+.descFoot {
+  color: #128336;
+  font-weight: bold;
+}
+
+.sms {
+  font-weight: bold;
+}
+
+.total {
+  /* opacity: 40%; */
+  font-size: small
+}
+
+.chartPlus {
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 10px;
+}

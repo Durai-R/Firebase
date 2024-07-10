@@ -1,0 +1,152 @@
+.off-canvas-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.offcanvas {
+  width: 800px !important
+}
+
+.off-canvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 100%;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease;
+  z-index: 998;
+}
+
+.off-canvas.open {
+  transform: translateX(600px);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 997;
+  display: none;
+}
+
+.off-canvas.open .overlay {
+  display: block;
+}
+
+.menu {
+  padding: 20px;
+  overflow: auto;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.check-custom {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+}
+
+.check-custom-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.check-custom-label:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #00ff55;
+  border-radius: 3px;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+
+.check-custom:checked+.check-custom-label:before {
+  background-color: #01d040;
+  content: '✓';
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+}
+
+
+.list-label_view {
+  margin-bottom: 12px;
+}
+
+body:has(> .offcanvas.show) {
+  overflow: hidden !important;
+}
+
+.inviteBtn {
+  margin-right: 130px;
+}
+
+.activeMod {
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: green transparent;
+  scrollbar-width: thin;
+  scrollbar-color: green transparent;
+}
+
+.activeMod {
+  scrollbar-width: thin;
+  scrollbar-color: #01d040 transparent;
+}
+
+.activeMod::-webkit-scrollbar {
+  width: 6px;
+}
+
+.activeMod::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.activeMod::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.activeMod::-webkit-scrollbar-button {
+  display: none;
+}
+
+.activeMod {
+  scrollbar-arrow-color: none;
+}
+
+.greatifyTopRightLogo {
+  top: 0;
+  right: 0;
+  height: 87px;
+  width: 230px;
+}

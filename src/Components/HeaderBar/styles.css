@@ -1,0 +1,59 @@
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 2px solid #e1e1e1;
+  padding: 0% 7% 0% 1%;
+  position: sticky;
+  top: 0%;
+  background-color: #ededed;
+  margin-top: 1%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.userName {
+  font-size: 18px;
+  color: #333;
+}
+
+.searchandProfile {
+  display: flex;
+  align-items: center;
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 8px 40px 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 450px !important;
+  margin-right: 10px;
+}
+
+.searchInput::placeholder {
+  padding-left: 30px;
+}
+
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  color: #666;
+  cursor: pointer;
+}
+
+
+.profileIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
